@@ -19,6 +19,78 @@
     }
   }
 
+#subscribe {
+   background-color: #616C4D;
+   color: #E9E3DB;
+   border-radius: 10px;
+   border-color: #969C7B;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 24px;
+   height: 75px;
+   padding: 20px;
+   margin: 0px auto;
+}
+
+.modalElement{
+   display: none;
+   position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgba(206, 195, 175, 0.7);
+}
+
+.modal-content p{
+   font-size: 32px;}
+
+.modal-content{
+   background-color: #F4E9E2;
+   margin: 20% auto;
+   text-align: center;
+   padding: 50px;
+   width: 60%;
+   border: solid 20px #616C4D;
+}
+
+.close {
+   color: #2B3138;
+   float: right;
+   font-size: 28px;
+   font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color:#616C4D;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.emailBox {
+   margin: 0px auto;
+   width: 75%;
+   height: 40px;
+   color: #D2D6DA;
+   background: #FFFFFF;
+   border: 1px solid #D2D6DA;
+   box-sizing: border-box;
+   border-radius: 8px;
+}
+
+#emailBtn {
+   width: 155px;
+   height: 48px;
+   background: #969C7B;
+   border-radius: 55px;
+   border-color: transparent;
+   color: #F4E9E2;
+   margin: 20px auto;
+}
+
+
 .headerMenu {
    text-transform: uppercase;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
