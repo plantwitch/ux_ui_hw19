@@ -31,6 +31,11 @@
    margin: 0px auto;
 }
 
+#subscribe:hover{
+   background-color: #ECD9CE;
+   color:#2B3138;
+}
+
 .modalElement{
    display: none;
    position: fixed;
@@ -42,6 +47,8 @@
    overflow: auto;
    background-color: rgba(206, 195, 175, 0.7);
 }
+
+
 
 .modal-content p{
    font-size: 32px;}
@@ -88,6 +95,10 @@
    border-color: transparent;
    color: #F4E9E2;
    margin: 20px auto;
+}
+
+#emailBtn:hover {
+   background-color: #616C4D;
 }
 
 
@@ -208,7 +219,7 @@ p{
    height: 100%;
    margin: -30px;
    background-image: linear-gradient(269.6deg, #E9E3DB 0.32%, rgba(231, 231, 231, 0) 77.79%), 
-   url("../ux_ui_hw19/images/TWH\ living\ room.jpeg");
+   url("images/TWH\ living\ room.jpeg");
    border-bottom-left-radius: 10%;
    background-size: cover;
    z-index: -3;
@@ -252,12 +263,10 @@ p{
    border-radius: 5px;
    padding: 50px 0;
    text-align: center;
-   
 }
 
 .item1 {
    grid-area: lglt;
-   font-size: 96px;
 }
 
 .item2 {
