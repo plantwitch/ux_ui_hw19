@@ -252,7 +252,7 @@ p{
 .socialContainer {
    display: grid;
    grid-gap: 10px;
-   padding: 10px;
+   /* padding: 10px; */
    grid-template-areas: 
    'lglt lglt md md rttpsm lgrt lgrt'
    'lglt lglt md md cttpsm lgrt lgrt'
@@ -268,10 +268,6 @@ p{
 
 .item1 {
    grid-area: lglt;
-}
-
-.item1-img{
-   width: 100%;
 }
 
 .item2 {
