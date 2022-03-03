@@ -252,7 +252,7 @@ p{
 .socialContainer {
    display: grid;
    grid-gap: 10px;
-   /* padding: 10px; */
+   padding: 10px;
    grid-template-areas: 
    'lglt lglt md md rttpsm lgrt lgrt'
    'lglt lglt md md cttpsm lgrt lgrt'
