@@ -20,8 +20,8 @@
   }
 
 #subscribe {
-   background-color: #616C4D;
-   color: #E9E3DB;
+   background-color: #969C7B;
+   color: #FBF7F5;
    border-radius: 10px;
    border-color: #969C7B;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -32,8 +32,9 @@
 }
 
 #subscribe:hover{
-   background-color: #ECD9CE;
-   color:#2B3138;
+   color: #FBF7F5;
+   background-color: #616C4d;
+   cursor: pointer;
 }
 
 .modalElement{
@@ -267,6 +268,10 @@ p{
 
 .item1 {
    grid-area: lglt;
+}
+
+.item1-img{
+   width: 100%;
 }
 
 .item2 {
