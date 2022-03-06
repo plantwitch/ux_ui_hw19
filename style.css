@@ -13,96 +13,6 @@
    min-height: 100vh;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: #FBF7F5;
-    }
-  }
-
-#subscribe {
-   background-color: #969C7B;
-   color: #FBF7F5;
-   border-radius: 10px;
-   border-color: #969C7B;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 24px;
-   height: 75px;
-   padding: 20px;
-   margin: 0px auto;
-}
-
-#subscribe:hover{
-   color: #FBF7F5;
-   background-color: #616C4d;
-   cursor: pointer;
-}
-
-.modalElement{
-   display: none;
-   position: fixed;
-   z-index: 1;
-   left: 0;
-   top: 0;
-   width: 100%;
-   height: 100%;
-   overflow: auto;
-   background-color: rgba(206, 195, 175, 0.7);
-}
-
-
-
-.modal-content p{
-   font-size: 32px;}
-
-.modal-content{
-   background-color: #F4E9E2;
-   margin: 20% auto;
-   text-align: center;
-   padding: 50px;
-   width: 60%;
-   border: solid 20px #616C4D;
-}
-
-.close {
-   color: #2B3138;
-   float: right;
-   font-size: 28px;
-   font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color:#616C4D;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.emailBox {
-   margin: 0px auto;
-   width: 75%;
-   height: 40px;
-   color: #D2D6DA;
-   background: #FFFFFF;
-   border: 1px solid #D2D6DA;
-   box-sizing: border-box;
-   border-radius: 8px;
-}
-
-#emailBtn {
-   width: 155px;
-   height: 48px;
-   background: #969C7B;
-   border-radius: 55px;
-   border-color: transparent;
-   color: #F4E9E2;
-   margin: 20px auto;
-}
-
-#emailBtn:hover {
-   background-color: #616C4D;
-}
-
-
 .headerMenu {
    text-transform: uppercase;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -125,19 +35,25 @@
    flex-direction: column;
 }
 
-.rightNavigation a {
-   padding: .00005%;
-}
-
 #headerNav {
    font-size: 20px;
    font-weight: 500;
-   padding-left: 50px;
+   display: flex;
+	justify-content: flex-end;
+	padding-right: 20px;
+	margin-left: auto;
 }
 
 #headerNav a {
-   margin-right: 50px;
+   margin-right: 75px;   
 }
+
+.logo-twh {
+ display: flex;
+ justify-content: flex-start;
+ /* margin-left: -1200px; */
+}
+
 
 a:link {
    color: #2B3138;
@@ -191,7 +107,7 @@ p{
    font-weight: 200;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+/* 
 .heroTitle {
    position: absolute;
    top: 300px; 
@@ -200,8 +116,8 @@ p{
    flex-direction: column;
    align-items: flex-start;
 
-}
-
+} */
+/* 
 .hero-image{
    width: 1000px;
    position: absolute;
@@ -210,9 +126,9 @@ p{
    border-bottom-left-radius: 30%;
    margin: -30px;
    z-index: -90;
-}
+} */
 
-.heroOverlay1 {
+/* .heroOverlay1 {
    position: absolute;
    top: 0px;
    right: 0px;
@@ -225,7 +141,7 @@ p{
    background-size: cover;
    z-index: -3;
 } 
-
+ */
 
 
 /* .heroOverlay2 {
@@ -247,6 +163,93 @@ p{
    justify-content: right;
    font-size: 30px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+   body {
+     background-color: #FBF7F5;
+   }
+ }
+
+#subscribe {
+  background-color: #969C7B;
+  color: #FBF7F5;
+  border-radius: 10px;
+  border-color: #969C7B;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 24px;
+  height: 75px;
+  padding: 20px;
+  margin: 0px auto;
+}
+
+#subscribe:hover{
+  color: #FBF7F5;
+  background-color: #616C4d;
+  cursor: pointer;
+}
+
+.modalElement{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(206, 195, 175, 0.7);
+}
+
+.modal-content p{
+  font-size: 32px;}
+
+.modal-content{
+  background-color: #F4E9E2;
+  margin: 20% auto;
+  text-align: center;
+  padding: 50px;
+  width: 60%;
+  border: solid 20px #616C4D;
+}
+
+.close {
+  color: #2B3138;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+ color:#616C4D;
+ text-decoration: none;
+ cursor: pointer;
+}
+
+.emailBox {
+  margin: 0px auto;
+  width: 75%;
+  height: 40px;
+  color: #D2D6DA;
+  background: #FFFFFF;
+  border: 1px solid #D2D6DA;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+#emailBtn {
+  width: 155px;
+  height: 48px;
+  background: #969C7B;
+  border-radius: 55px;
+  border-color: transparent;
+  color: #F4E9E2;
+  margin: 20px auto;
+}
+
+#emailBtn:hover {
+  background-color: #616C4D;
 }
 
 .socialContainer {
